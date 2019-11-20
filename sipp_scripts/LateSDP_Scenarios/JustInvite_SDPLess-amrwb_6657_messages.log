@@ -1,0 +1,154 @@
+----------------------------------------------- 2019-10-23 13:02:11.558110
+UDP message sent (464 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-6657-1-0
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 1-6657@127.0.1.1
+CSeq: 1 INVITE
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+X-DolbyVoice-Client-LogId: JustInviteSDPLess-amrwb.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:     0
+
+
+----------------------------------------------- 2019-10-23 13:02:11.558910
+UDP message received [283] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-6657-1-0;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 1-6657@127.0.1.1
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-10-23 13:02:11.575919
+UDP message received [3099] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-6657-1-0;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=c8yrg7t0vB5XB
+Call-ID: 1-6657@127.0.1.1
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 2344
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.5209345 - Production
+
+v=0
+o=- 1571796704 1571796704 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 20780 RTP/AVP 97 100 120 9 0 8 121 122 123 109 110 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:120 opus/48000/2
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:121 AMR-WB/16000/1
+a=fmtp:121 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:122 AMR-WB/16000/1
+a=fmtp:122 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:123 AMR-WB/16000/1
+a=fmtp:123 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:109 AMR-WB/16000/1
+a=fmtp:109 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:110 AMR-WB/16000/1
+a=fmtp:110 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-10-23 13:02:11.576358
+UDP message sent (646 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-6657-1-5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=c8yrg7t0vB5XB
+Call-ID: 1-6657@127.0.1.1
+CSeq: 1 ACK
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   268
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.1.1
+s=-
+c=IN IP4 127.0.1.1
+t=0 0
+m=audio 6000 RTP/AVP 121
+a=rtpmap:121 AMR-WB/16000/1
+a=fmtp:121 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=999;crc=1;robust-sorting=1
+
+----------------------------------------------- 2019-10-23 13:02:13.582007
+UDP message sent (343 bytes):
+
+BYE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-6657-1-7
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=c8yrg7t0vB5XB
+Call-ID: 1-6657@127.0.1.1
+CSeq: 2 BYE
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-10-23 13:02:13.582847
+UDP message received [428] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-6657-1-7;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=c8yrg7t0vB5XB
+Call-ID: 1-6657@127.0.1.1
+CSeq: 2 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+

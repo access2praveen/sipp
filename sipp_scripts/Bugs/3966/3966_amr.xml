@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<scenario name="SIPP scenario genertated by sipp_xml_generated">
+
+<nop display="INVITE (client) connection:" />
+<nop>
+  <action>
+    <assignstr assign_to="sdp_v" value="v=0" />
+    <assignstr assign_to="sdp_o" value="o=user1 53655765 2353687637 IN IP[local_ip_type] [local_ip]" />
+    <assignstr assign_to="sdp_s" value="s=-" />
+    <assignstr assign_to="sdp_c" value="c=IN IP[media_ip_type] [media_ip]" />
+    <assignstr assign_to="sdp_t" value="t=0 0" />
+    <assignstr assign_to="sdp_m" value="124 101" />
+    <assignstr assign_to="sdp_a" value="a=rtpmap:124 AMR-WB/16000\na=fmtp:124 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0\na=rtpmap:101 telephone-event/8000\na=fmtp:101 0-11" />
+    <assignstr assign_to="sdp" value="[$sdp_v]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_o]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_c]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_s]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_t]" />
+    <assignstr assign_to="sdp" value="[$sdp]\nm=audio [media_port] RTP/AVP [$sdp_m]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_a]" />
+    <assignstr assign_to="sdp_invite" value="[$sdp]" />
+    <assignstr assign_to="sdp_ack" value="" />
+  </action>
+</nop>
+
+  <send start_rtd="invite"><!-- Generated CDATA -->
+    <![CDATA[
+      INVITE sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+      To: sut <sip:[call_number]*1@[remote_ip]:[remote_port]>
+      Call-ID: [call_id]
+      CSeq: [cseq] INVITE
+      Contact: sip:sipp@[local_ip]:[local_port]
+      Max-Forwards: 70
+      X-DolbyVoice-Client-LogId: 1
+      Subject: Performance Test
+      Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+      Supported: 100rel
+      Session-Expires: 90;refresher=uas
+      Content-Type: application/sdp
+      Content-Length: [len]
+
+      [$sdp_invite]
+
+    
+  ]]>
+<!-- End of Generated CDATA -->
+</send>
+
+  <recv optional="true" response="100">
+  </recv>
+
+  <recv optional="true" response="180">
+  </recv>
+
+  <recv response="200" rtd="invite">
+    <action>
+    	<ereg assign_to="unused,client_sip_id" header="To:" regexp="tag=\s*(\S*)" search_in="hdr" />
+    </action>
+  </recv>
+
+  <Reference variables="unused,client_sip_id" />
+  <send crlf="true"><!-- Generated CDATA -->
+    <![CDATA[
+      ACK sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+      To: sut <sip:[service]@[remote_ip]:[remote_port]>[peer_tag_param]
+      Call-ID: [call_id]
+      CSeq: [cseq] ACK
+      Contact: sip:sipp@[local_ip]:[local_port]
+      Max-Forwards: 70
+      Subject: Performance Test
+      Content-Type: application/sdp
+      Content-Length: [len]
+
+      [$sdp_ack]
+
+    
+  ]]>
+<!-- End of Generated CDATA -->
+</send>
+
+<nop display="wait for 3000 msec:" />
+  <pause crlf="true" milliseconds="3000" />
+
+<nop display="send BYE" />
+<send><!-- Generated CDATA -->
+    <![CDATA[
+      BYE sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+      To: sut <sip:[service]@[remote_ip]:[remote_port]>[peer_tag_param]
+      Call-ID: [call_id]
+      CSeq: [cseq] BYE
+      Contact: sip:sipp@[local_ip]:[local_port]
+      Max-Forwards: 70
+      Subject: Performance Test
+      Content-Length: 0
+
+    
+]]>
+<!-- End of Generated CDATA -->
+</send>
+<recv crlf="true" response="200" />
+
+</scenario>

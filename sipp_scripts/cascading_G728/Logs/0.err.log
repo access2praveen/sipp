@@ -1,0 +1,13 @@
+sipp: The following events occured:
+2019-09-10	15:58:41.953843	1568095121.953843: Overload warning: the major watchdog timer 3000ms has been tripped (937496), 9 trips remaining..
+2019-09-10	15:58:41.954315	1568095121.954315: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954349	1568095121.954349: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954388	1568095121.954388: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954421	1568095121.954421: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954459	1568095121.954459: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954497	1568095121.954497: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954532	1568095121.954532: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954566	1568095121.954566: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954600	1568095121.954600: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.954634	1568095121.954634: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	16:08:42.297784	1568095722.297784: Resetting watchdog timer trigger counts, as it has not been triggered in over 600344ms..

@@ -1,0 +1,1574 @@
+Problem EAGAIN on socket  8 and poll_idx  is 1 
+Exit problem event on socket 8 
+----------------------------------------------- 2019-02-20 17:20:48.363879
+UDP message sent (398 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:6020
+Max-Forwards: 70
+Session-Expires: 3600;refresher=uac
+Subject: Performance Test
+Content-Length:     0
+
+
+----------------------------------------------- 2019-02-20 17:20:48.364349
+UDP message received [285] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-02-20 17:20:48.368566
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:20:48.369099
+TCP control message sent (80 bytes):
+
+Call-ID: 1-4255@10.204.66.46
+S0_rtp_port: 25138
+S0_audio_ip:10.204.66.84]
+
+
+----------------------------------------------- 2019-02-20 17:20:48.393866
+TCP control message received [80] bytes :
+
+Call-ID: 1-4255@10.204.66.46
+S1_rtp_port: 44144
+S1_audio_ip: 10.204.66.46
+
+
+----------------------------------------------- 2019-02-20 17:20:48.394047
+UDP message sent (598 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-7
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 ACK
+Contact: sip:sipp@10.204.66.46:6020
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  44144 RTP/AVP 9 101
+a=rtpmap:9 G722/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-02-20 17:20:48.868362
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:20:48.868551
+UDP message sent (598 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-7
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 ACK
+Contact: sip:sipp@10.204.66.46:6020
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  44144 RTP/AVP 9 101
+a=rtpmap:9 G722/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-02-20 17:20:49.398875
+UDP message sent (942 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-10
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: sut <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 2 INFO
+Contact: sip:sipp@10.204.66.46:6020
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   375
+
+<msml version="1.1">
+<join id1="conn:p48m73DrScX7K" id2="conf:conf_0">
+<stream dir="to-id1" media="audio" dlb:echo_suppression="enable" dlb:audio_processing="enable" dlb:fec="disable">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio" dlb:jb_min_latency="0ms">
+<clamp dtmf="true" />
+<gain amt="0" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-02-20 17:20:49.399818
+UDP message received [544] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-10
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: sut <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 2 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-02-20 17:20:49.869201
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:20:50.282009
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:20:51.869354
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:20:54.284208
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:20:55.872036
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:20:58.284970
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:20:59.874210
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:21:02.285627
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:03.876538
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:21:06.287009
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:07.878334
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:21:10.288939
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:11.880552
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:21:15.883011
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:21:19.885831
+UDP message received [2220] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-02-20 17:21:20.378713
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:21.384525
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:23.388981
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:27.393787
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:31.399454
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:35.405338
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:39.409168
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:43.415811
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:47.421656
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+
+----------------------------------------------- 2019-02-20 17:21:51.426625
+UDP message received [557] bytes :
+
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKmaNHyZye0Q8pe
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+Call-ID: 1-4255@10.204.66.46
+CSeq: 765982 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<scenario name="SIPP scenario genertated by sipp_xml_generated">
+
+<nop display="INVITE (client) connection:" />
+<nop>
+  <action>
+    <assignstr assign_to="sdp_v" value="v=0" />
+    <assignstr assign_to="sdp_o" value="o=user1 53655765 2353687637 IN IP[local_ip_type] [local_ip]" />
+    <assignstr assign_to="sdp_s" value="s=-" />
+    <assignstr assign_to="sdp_c" value="c=IN IP[media_ip_type] [media_ip]" />
+    <assignstr assign_to="sdp_t" value="t=0 0" />
+    <assignstr assign_to="sdp_m" value="97" />
+    <assignstr assign_to="sdp_a" value="a=rtpmap:97 AMR/8000/1" />
+    <assignstr assign_to="sdp" value="[$sdp_v]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_o]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_c]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_s]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_t]" />
+    <assignstr assign_to="sdp" value="[$sdp]\nm=audio [media_port] RTP/AVP [$sdp_m]" />
+    <assignstr assign_to="sdp" value="[$sdp]\n[$sdp_a]" />
+    <assignstr assign_to="sdp_invite" value="[$sdp]" />
+    <assignstr assign_to="sdp_ack" value="" />
+  </action>
+</nop>
+
+  <send start_rtd="invite"><!-- Generated CDATA -->
+    <![CDATA[
+      INVITE sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      From: sipp <sip: 8*1@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+      To: sut <sip:[service]@[remote_ip]:[remote_port]>
+      Call-ID: [call_id]
+      CSeq: [cseq] INVITE
+      Contact: sip:sipp@[local_ip]:[local_port]
+      Max-Forwards: 70
+      X-DolbyVoice-Client-LogId: sipp_client_1
+      Subject: Performance Test
+      Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+      Supported: 100rel
+      Content-Type: application/sdp
+      Content-Length: [len]
+
+      [$sdp_invite]
+      a=fmtp:97 octet-align=1
+    
+  ]]>
+<!-- End of Generated CDATA -->
+</send>
+
+  <recv optional="true" response="100">
+  </recv>
+
+  <recv optional="true" response="180">
+  </recv>
+
+  <recv response="200" rtd="invite">
+    <action>
+      <ereg assign_to="unused,client_sip_id" header="To:" regexp="tag=\s*(\S*)" search_in="hdr" />
+      <ereg assign_to="unused,audio_port" regexp="m=audio (\S+) " search_in="body" />
+      <ereg assign_to="unused,audio_ip" regexp="o=\S+ \S+ \S+ \S+ \S+ (\S+)" search_in="body" />
+    </action>
+  </recv>
+
+  <Reference variables="unused,client_sip_id" />
+  <send crlf="true"><!-- Generated CDATA -->
+    <![CDATA[
+      ACK sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+      To: sut <sip:[service]@[remote_ip]:[remote_port]>[peer_tag_param]
+      Call-ID: [call_id]
+      CSeq: [cseq] ACK
+      Contact: sip:sipp@[local_ip]:[local_port]
+      Max-Forwards: 70
+      Subject: Performance Test
+      Content-Type: application/sdp
+      Content-Length: [len]
+
+      [$sdp_ack]
+
+    
+  ]]>
+<!-- End of Generated CDATA -->
+</send>
+
+<nop display="wait for 200 msec:" />
+  <pause crlf="true" milliseconds="200" />
+
+<nop display="join conf_1:" />
+  <send><!-- Generated CDATA -->
+       <![CDATA[
+        INFO sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+        Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+        From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+        To: sut <sip:[service]@[remote_ip]:[remote_port]>[peer_tag_param]
+        Call-ID: [call_id]
+        CSeq: [cseq] INFO
+        Contact: sip:sipp@[local_ip]:[local_port]
+        Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+        Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+        Supported: 100rel
+        Content-Type: application/msml+xml
+        Content-Length: [len]
+
+        <msml version="1.1">
+          <join id1="conn:[$client_sip_id]" id2="conf:conf_1">
+            <stream dir="to-id1" media="audio" dlb:echo_suppression="enable" dlb:audio_processing="enable" dlb:fec="disable">
+              <clamp dtmf="false" />
+              <gain amt="0" />
+            </stream>
+            <stream dir="from-id1" media="audio" dlb:jb_min_latency="0ms">
+              <clamp dtmf="true" />
+              <gain amt="0" />
+            </stream>
+          </join>
+        </msml>
+
+       
+  ]]>
+<!-- End of Generated CDATA -->
+</send>
+  <recv crlf="true" response="200" />
+
+<nop crlf="true" display="play amr_nb rtp stream:">
+  <action>
+      <exec command ="echo audio_ip:[$audio_ip], audio_port: [$audio_port]" />
+      <exec command="ffmpeg -re -i [field0] -acodec libopencore_amrnb -ar 8000 -ab [field1] -ac 1 -f rtp rtp://[$audio_ip]:[$audio_port]/" />
+  </action>
+  </nop>
+
+<nop display="wait for 15000 msec:" />
+  <pause  crlf="true" milliseconds="15000"/>
+
+<nop display="leave conf_1:" />
+  <send><!-- Generated CDATA -->
+       <![CDATA[
+        INFO sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+        Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+        From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+        To: sut <sip:[service]@[remote_ip]:[remote_port]>[peer_tag_param]
+        Call-ID: [call_id]
+        CSeq: [cseq] INFO
+        Contact: sip:sipp@[local_ip]:[local_port]
+        Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+        Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+        Supported: 100rel
+        Content-Type: application/msml+xml
+        Content-Length: [len]
+
+        <msml version="1.1">
+          <unjoin id1="conn:[$client_sip_id]" id2="conf:conf_1">
+            <stream dir='to-id1' media='audio' />
+            <stream dir='from-id1' media='audio' />
+          </unjoin>
+        </msml>
+
+       
+  ]]>
+<!-- End of Generated CDATA -->
+</send>
+  <recv crlf="true" response="200" />
+
+<nop display="send BYE" />
+<send><!-- Generated CDATA -->
+    <![CDATA[
+      BYE sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+      Via: SIP/2.0/[transport] [local_ip]:[local_port];branch=[branch]
+      From: sipp <sip:sipp@[local_ip]:[local_port]>;tag=sipp_[call_number]_[pid]
+      To: sut <sip:[service]@[remote_ip]:[remote_port]>[peer_tag_param]
+      Call-ID: [call_id]
+      CSeq: [cseq] BYE
+      Contact: sip:sipp@[local_ip]:[local_port]
+      Max-Forwards: 70
+      Subject: Performance Test
+      Content-Length: 0
+
+    
+]]>
+<!-- End of Generated CDATA -->
+</send>
+<recv crlf="true" response="200" />
+<!--
+<nop crlf="true" display="kill ffmpeg:">
+  <action>
+      <exec command="killall ffmpeg" />
+  </action>
+  </nop>
+-->
+
+</scenario>

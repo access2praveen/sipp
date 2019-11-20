@@ -1,0 +1,2988 @@
+Problem EAGAIN on socket  9 and poll_idx  is 1 
+Exit problem event on socket 9 
+----------------------------------------------- 2019-11-07 15:21:54.714328
+UDP message sent (397 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-0
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: service <sip:service@10.204.66.84:5080>
+Call-ID: 1-26304@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:6020
+Max-Forwards: 70
+Session-Expires: 3600;refresher=uac
+Subject: Performance Test
+Content-Length:     0
+
+
+----------------------------------------------- 2019-11-07 15:21:54.714942
+UDP message received [285] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-0
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: service <sip:service@10.204.66.84:5080>
+Call-ID: 1-26304@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 15:21:54.727017
+UDP message received [3101] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-0
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+Call-ID: 1-26304@10.204.66.5
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 2344
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.5209345 - Production
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 97 100 120 9 0 8 121 122 123 109 110 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:120 opus/48000/2
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:121 AMR-WB/16000/1
+a=fmtp:121 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:122 AMR-WB/16000/1
+a=fmtp:122 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:123 AMR-WB/16000/1
+a=fmtp:123 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:109 AMR-WB/16000/1
+a=fmtp:109 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:110 AMR-WB/16000/1
+a=fmtp:110 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 15:21:54.727600
+TCP control message sent (80 bytes):
+
+Call-ID: 1-26304@10.204.66.5
+S0_rtp_port: 35040
+S0_audio_ip: 10.204.66.84
+
+
+----------------------------------------------- 2019-11-07 15:21:54.775483
+TCP control message received [80] bytes :
+
+Call-ID: 1-26304@10.204.66.5
+S1_rtp_port: 46230
+S1_audio_ip: 10.204.66.46
+
+
+----------------------------------------------- 2019-11-07 15:21:54.775652
+UDP message sent (643 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-7
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+Call-ID: 1-26304@10.204.66.5
+CSeq: 1 ACK
+Contact: sip:sipp@10.204.66.5:6020
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 15:21:55.283138
+UDP message sent (738 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-10
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: sut <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+Call-ID: 1-26304@10.204.66.5
+CSeq: 2 INFO
+Contact: sip:sipp@10.204.66.5:6020
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   172
+
+<msml version="1.1">
+<createconference name="conf_0" deletewhen="nomedia">
+<audiomix>
+<asn ri=" 90s" />
+<n-loudest n="4" />
+</audiomix>
+</createconference>
+</msml>
+
+----------------------------------------------- 2019-11-07 15:21:55.284199
+UDP message received [544] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-10
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: sut <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+Call-ID: 1-26304@10.204.66.5
+CSeq: 2 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:21:55.790104
+UDP message sent (943 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-14
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: sut <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+Call-ID: 1-26304@10.204.66.5
+CSeq: 3 INFO
+Contact: sip:sipp@10.204.66.5:6020
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   377
+
+<msml version="1.1">
+<join id1="conn:U9S99BjKXX3aK" id2="conf:conf_0">
+<stream dir="to-id1" media="audio" dlb:echo_suppression="disable" dlb:audio_processing="disable" dlb:fec="disable">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio" dlb:jb_min_latency="0ms">
+<clamp dtmf="true" />
+<gain amt="0" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-11-07 15:21:55.791240
+UDP message received [544] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.5:6020;branch=z9hG4bK-26304-1-14
+From: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+To: sut <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+Call-ID: 1-26304@10.204.66.5
+CSeq: 3 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:24:58.670946
+UDP message received [695] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK39jrKZ7tSX07c
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996845 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:U9S99BjKXX3aK</value>
+  </event>
+</msml>
+
+----------------------------------------------- 2019-11-07 15:24:58.671417
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK39jrKZ7tSX07c
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996845 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:26:28.679026
+UDP message received [623] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4jcHNtryp6ptr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996846 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:26:28.679783
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4jcHNtryp6ptr
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996846 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:28:48.864705
+UDP message received [695] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK5U59pN91KFDDm
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996847 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:U9S99BjKXX3aK</value>
+  </event>
+</msml>
+
+----------------------------------------------- 2019-11-07 15:28:48.865018
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK5U59pN91KFDDm
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996847 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:30:18.882631
+UDP message received [695] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK64y2rgt5gr3ZF
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996848 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8y2B1BD1QH5XS</value>
+  </event>
+</msml>
+
+----------------------------------------------- 2019-11-07 15:30:18.883046
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK64y2rgt5gr3ZF
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996848 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:31:48.900615
+UDP message received [623] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7DrUtBB9D1SjB
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996849 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:31:48.900852
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7DrUtBB9D1SjB
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996849 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:33:18.921084
+UDP message received [695] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8pHmv6UcBag5p
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996850 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8y2B1BD1QH5XS</value>
+  </event>
+</msml>
+
+----------------------------------------------- 2019-11-07 15:33:18.921536
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8pHmv6UcBag5p
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996850 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:35:26.937593
+UDP message received [623] bytes :
+
+INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK9ZaDy1cg8j6Qj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996851 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:35:26.937885
+UDP message sent (440 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK9ZaDy1cg8j6Qj
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996851 INFO
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Content-Type: application/msml+xml
+Content-Length:    81
+
+<?xml version="1.0"?>
+<msml version="1.1">
+<result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-07 15:51:53.137590
+UDP message received [905] bytes :
+
+INVITE sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKa935ZvXK5Uvae
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996852 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 15:51:53.137858
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKa935ZvXK5Uvae
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996852 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 15:51:53.138457
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKBjXy1QeQ24jXS
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996852 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 16:21:55.205873
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKrBa6UyN8aDr9a
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996853 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 16:21:55.206135
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKrBa6UyN8aDr9a
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996853 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 16:21:55.206666
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKSm3yXS6B8Nevp
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996853 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 16:51:56.133082
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKU6Ng1F8j27t1D
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996854 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 16:51:56.133341
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKU6Ng1F8j27t1D
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996854 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 16:51:56.133881
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKvFF92aSpZgHmS
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996854 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 17:21:57.140405
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXr81459SvS76m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996855 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 17:21:57.140673
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXr81459SvS76m
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996855 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 17:21:57.141633
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKy11t60tXS2XSg
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996855 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 17:51:55.151786
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKZaUK8UB1pBmcc
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996856 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 17:51:55.152054
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKZaUK8UB1pBmcc
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996856 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 17:51:55.152621
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0KmcaQv4KmaZQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996856 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 18:21:54.669448
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1vD5BjD8gX0HK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996857 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 18:21:54.669637
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1vD5BjD8gX0HK
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996857 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 18:21:54.670176
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK256XDDyBe6p4e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996857 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 18:51:55.102773
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK3e0pF8eFBFDQa
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996858 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 18:51:55.103085
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK3e0pF8eFBFDQa
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996858 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 18:51:55.103736
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4QSFH3Zj8Q39N
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996858 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 19:21:55.123586
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK50j8jygp50SvH
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996859 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 19:21:55.123787
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK50j8jygp50SvH
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996859 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 19:21:55.124526
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK69B1mS1S29FFD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996859 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 19:51:58.226719
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7j5SpmjXZj61r
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996860 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 19:51:58.226912
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7j5SpmjXZj61r
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996860 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 19:51:58.227462
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8UyjrF30vUvmm
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996860 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 20:21:58.090670
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK94QBtam4S4j7F
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996861 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 20:21:58.090935
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK94QBtam4S4j7F
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996861 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 20:21:58.091507
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKaeH4U547pD9SB
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996861 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 20:51:59.096650
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKBQaXX0NBmpZcQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996862 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 20:51:59.096834
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKBQaXX0NBmpZcQ
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996862 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 20:51:59.097373
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKc03NZU6eHZNZj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996862 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 21:21:57.099582
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKD9ve1pQje8Bje
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996863 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 21:21:57.099799
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKD9ve1pQje8Bje
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996863 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 21:21:57.100384
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKejp72H8NBH24S
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996863 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 21:51:51.905569
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKFUF04cSS8SrQN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996864 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 21:51:51.905863
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKFUF04cSS8SrQN
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996864 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 21:51:51.906477
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKg48r679v52eaH
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996864 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 22:21:52.068108
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKHD2H82t02B5vc
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996865 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 22:21:52.068373
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKHD2H82t02B5vc
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996865 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 22:21:52.068937
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjpUaayB4ZmUFr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996865 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 22:51:55.092206
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKKZm3BSv7vXH2K
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996866 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 22:51:55.092512
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKKZm3BSv7vXH2K
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996866 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 22:51:55.093078
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKm8DvDmDBt67mF
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996866 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 23:21:49.503395
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKNH7mFFyeQFy7a
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996867 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 23:21:49.503657
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKNH7mFFyeQFy7a
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996867 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 23:21:49.504230
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKpt0DHaFjmrmtp
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996867 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-07 23:51:53.045458
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKQ3S6j5ZNH1aDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996868 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-07 23:51:53.045688
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKQ3S6j5ZNH1aDj
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996868 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-07 23:51:53.046215
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKrcKZm0gSea1ZD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996868 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 00:21:54.058836
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKSNcrpU1vBKQjS
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996869 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 00:21:54.059037
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKSNcrpU1vBKQjS
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996869 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 00:21:54.059593
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKty5grpj08UD5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996869 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 00:51:48.170398
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKU7y9SH33543Qg
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996870 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 00:51:48.170563
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKU7y9SH33543Qg
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996870 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 00:51:48.171086
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKvgr2Ucm72Dtac
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996870 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 01:21:45.019656
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXSHUX74a0pgXQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996871 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 01:21:45.019875
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXSHUX74a0pgXQ
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996871 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 01:21:45.020406
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKy2amZ2NeXZ6FK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996871 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 01:51:43.029989
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKZB4c1X6Ht8v2e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996872 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 01:51:43.030178
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKZB4c1X6Ht8v2e
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996872 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 01:51:43.030702
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0mX52rQNQHKNa
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996872 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 02:21:41.041942
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Xpy4K8rmt97N
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996873 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 02:21:41.042145
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Xpy4K8rmt97N
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996873 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 02:21:41.042675
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK26FQ6eSvH3ZtH
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996873 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 02:51:35.774700
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK3F9F899ZecpDD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996874 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 02:51:35.774950
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK3F9F899ZecpDD
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996874 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 02:51:35.775519
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4r2894t3BNc0r
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996874 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 03:21:40.004551
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK51U1B0B78X2jm
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996875 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 03:21:40.004749
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK51U1B0B78X2jm
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996875 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 03:21:40.005268
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK6aNtDUva66r5F
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996875 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 03:51:41.023257
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7KeKFpDe3FFrB
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996876 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 03:51:41.023520
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7KeKFpDe3FFrB
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996876 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 03:51:41.024079
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8v7BHHyH0r5aQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996876 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 04:21:43.293582
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK9504jcFNX1UXj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996877 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 04:21:43.293864
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK9504jcFNX1UXj
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996877 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 04:21:43.294377
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKaFtXm7Zrtajge
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996877 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 04:51:41.985725
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKBrKpp2gvQK82S
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996878 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 04:51:41.985907
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKBrKpp2gvQK82S
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996878 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 04:51:41.986485
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKc1cFrX1ZmvyNN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996878 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 05:21:36.994769
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKDa67Srj3H5m8g
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996879 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 05:21:36.995066
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKDa67Srj3H5m8g
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996879 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 05:21:36.995628
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKeKZ0UK36eeBUc
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996879 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 05:51:35.108927
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKFvrSXemacQ1Dr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996880 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 05:51:35.109194
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKFvrSXemacQ1Dr
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996880 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 05:51:35.109821
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKg5HjZ94D9ZQ0K
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996880 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 06:21:37.965818
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKHeBB14NH68DKF
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996881 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 06:21:37.966036
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKHeBB14NH68DKF
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996881 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 06:21:37.966584
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjQ432Z6m3H45a
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996881 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 06:51:36.962939
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKK0Xv4tQr0ttrp
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996882 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 06:51:36.963212
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKK0Xv4tQr0ttrp
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996882 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 06:51:36.963775
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKm9pN6N8UX3gBj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996882 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 07:21:33.016511
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKNjge8gSZtc7XD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996883 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 07:21:33.017019
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKNjge8gSZtc7XD
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996883 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 07:21:33.017663
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKpU969Ba3QNXgS
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996883 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 07:51:33.943836
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKQ42ZB7t6myK3m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996884 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 07:51:33.944023
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKQ42ZB7t6myK3m
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996884 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 07:51:33.944571
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKrDvrD2Baj79Ng
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996884 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 08:21:38.954194
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKSpNHFXvDFg08B
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996885 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 08:21:38.954658
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKSpNHFXvDFg08B
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996885 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 08:21:38.955438
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKtZeaHrDHcSpUQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996885 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 08:51:41.965225
+UDP message received [914] bytes :
+
+INVITE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKU872jKym91ceK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996886 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1573101091 1573101091 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 35040 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+
+----------------------------------------------- 2019-11-08 08:51:41.965416
+UDP message sent (633 bytes):
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKU872jKym91ceK
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996886 INVITE
+Contact: <sip:10.204.66.5:6020;transport=UDP>
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Length:   240
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4  10.204.66.46
+t=0 0
+m=audio  46230 RTP/AVP 98 101
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+
+----------------------------------------------- 2019-11-08 08:51:41.966414
+UDP message received [321] bytes :
+
+ACK sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKvH1UmeFr6a30e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996886 ACK
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-08 09:20:28.810022
+UDP message received [526] bytes :
+
+BYE sip:10.204.66.5:6020;transport=UDP SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXttmp9ZU3KSKa
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996887 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Shutdown
+
+

@@ -1,0 +1,23 @@
+sipp: The following events occured:
+2019-07-12	07:00:19.669672	1562878819.669672: Overload warning: the major watchdog timer 3000ms has been tripped (931323), 9 trips remaining..
+2019-07-12	07:00:19.670889	1562878819.670889: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.670926	1562878819.670926: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.670960	1562878819.670960: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.670998	1562878819.670998: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671035	1562878819.671035: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671069	1562878819.671069: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671103	1562878819.671103: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671136	1562878819.671136: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671170	1562878819.671170: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671206	1562878819.671206: Continuing call on an unexpected BYE for call: 1-9651@10.204.66.46.
+2019-07-12	07:00:19.671267	1562878819.671267: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671338	1562878819.671338: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671401	1562878819.671401: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671461	1562878819.671461: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671536	1562878819.671536: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671599	1562878819.671599: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671661	1562878819.671661: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671726	1562878819.671726: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671788	1562878819.671788: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:00:19.671855	1562878819.671855: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: c449d305-1e5c-1238-e1bd-0cc47a09e3a0.
+2019-07-12	07:10:19.852631	1562879419.852631: Resetting watchdog timer trigger counts, as it has not been triggered in over 600183ms..

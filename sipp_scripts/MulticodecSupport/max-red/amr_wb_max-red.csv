@@ -1,0 +1,12 @@
+SEQUENTIAL
+2;0;1;1;1;20;output_oa_rs_1f_1r_1nd.rtpdump
+2;65535;1;1;1;40;output_oa_rs_2f_1r_1nd.rtpdump
+2;-90;1;1;1;40;output_oa_rs_2f_1r_5nd.rtpdump
+2;90000;1;1;1;20;output_oa_rs_1f.rtpdump
+2;0;0;0;2;20;output_oa_rs_1f.rtpdump
+2;65535;0;0;3;20;output_oa_rs_1f.rtpdump
+2;-90;0;0;4;20;output_oa_rs_1f.rtpdump
+2;90000;0;0;5;20;output_oa_rs_1f.rtpdump
+
+
+

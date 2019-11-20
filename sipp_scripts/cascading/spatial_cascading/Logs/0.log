@@ -1,0 +1,174 @@
+unused:c=IN IP4 10.204.66.84, s0_audio_ip:10.204.66.84
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK39jrKZ7tSX07c
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996845 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:U9S99BjKXX3aK</value>
+  </event>
+</msml>
+
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4jcHNtryp6ptr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996846 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK5U59pN91KFDDm
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996847 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:U9S99BjKXX3aK</value>
+  </event>
+</msml>
+
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK64y2rgt5gr3ZF
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996848 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8y2B1BD1QH5XS</value>
+  </event>
+</msml>
+
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK7DrUtBB9D1SjB
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996849 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8pHmv6UcBag5p
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996850 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8y2B1BD1QH5XS</value>
+  </event>
+</msml>
+
+received conf control leg SIP INFO: INFO sip:sipp@10.204.66.5:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK9ZaDy1cg8j6Qj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=U9S99BjKXX3aK
+To: sipp <sip:sipp@10.204.66.5:6020>;tag=sipp_1_26304
+Call-ID: 1-26304@10.204.66.5
+CSeq: 11996851 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv
+received conf control leg SIP reInv

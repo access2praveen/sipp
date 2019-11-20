@@ -1,0 +1,520 @@
+sipp: The following events occured:
+2019-04-05	05:44:30.417727	1554403470.417727: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:46:00.560120	1554403560.560120: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:47:30.580796	1554403650.580796: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:49:00.601034	1554403740.601034: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:50:30.614051	1554403830.614051: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:52:00.651779	1554403920.651779: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:53:30.658836	1554404010.658836: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:55:00.676793	1554404100.676793: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:56:30.705759	1554404190.705759: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:58:00.726952	1554404280.726952: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:59:30.746839	1554404370.746839: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:01:00.754748	1554404460.754748: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:02:30.882794	1554404550.882794: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:04:00.895763	1554404640.895763: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:05:30.916808	1554404730.916808: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:07:00.942788	1554404820.942788: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:07:55.613703	1554404875.613703: Continuing call on unexpected message for Call-Id '1-7741@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKmFH52NNc95FDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=6r918UFN0HXQB
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7740
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2648645 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403075 1554403075 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 37220 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:07:56.613784	1554404876.613784: Continuing call on unexpected message for Call-Id '1-7741@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKmFH52NNc95FDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=6r918UFN0HXQB
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7740
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2648645 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403075 1554403075 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 37220 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:07:58.614523	1554404878.614523: Continuing call on unexpected message for Call-Id '1-7741@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKmFH52NNc95FDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=6r918UFN0HXQB
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7740
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2648645 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403075 1554403075 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 37220 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:08:02.614018	1554404882.614018: Continuing call on unexpected message for Call-Id '1-7741@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKmFH52NNc95FDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=6r918UFN0HXQB
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7740
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2648645 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403075 1554403075 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 37220 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:08:10.614276	1554404890.614276: Continuing call on unexpected message for Call-Id '1-7741@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKmFH52NNc95FDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=6r918UFN0HXQB
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7740
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2648645 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403075 1554403075 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 37220 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:08:26.614188	1554404906.614188: Continuing call on unexpected message for Call-Id '1-7741@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKmFH52NNc95FDj
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=6r918UFN0HXQB
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7740
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2648645 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403075 1554403075 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 37220 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:08:27.614384	1554404907.614384: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:28.614193	1554404908.614193: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:30.614196	1554404910.614196: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:30.958793	1554404910.958793: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:08:34.613934	1554404914.613934: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:38.613863	1554404918.613863: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:42.613863	1554404922.613863: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:46.613848	1554404926.613848: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:50.614654	1554404930.614654: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:54.614586	1554404934.614586: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:08:58.615397	1554404938.615397: Continuing call on an unexpected BYE for call: 1-7741@10.204.66.46.
+2019-04-05	06:09:00.614781	1554404940.614781: Continuing call on unexpected message for Call-Id '1-7762@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKQaXF867p00j5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=rUg082ymcje8B
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7761
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2648678 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403135 1554403135 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 34382 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:09:01.615177	1554404941.615177: Continuing call on unexpected message for Call-Id '1-7762@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKQaXF867p00j5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=rUg082ymcje8B
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7761
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2648678 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403135 1554403135 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 34382 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:09:03.615024	1554404943.615024: Continuing call on unexpected message for Call-Id '1-7762@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKQaXF867p00j5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=rUg082ymcje8B
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7761
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2648678 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403135 1554403135 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 34382 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:09:07.615667	1554404947.615667: Continuing call on unexpected message for Call-Id '1-7762@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKQaXF867p00j5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=rUg082ymcje8B
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7761
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2648678 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403135 1554403135 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 34382 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:09:15.616834	1554404955.616834: Continuing call on unexpected message for Call-Id '1-7762@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKQaXF867p00j5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=rUg082ymcje8B
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7761
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2648678 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403135 1554403135 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 34382 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:09:31.616890	1554404971.616890: Continuing call on unexpected message for Call-Id '1-7762@10.204.66.46': while expecting command (index 0), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKQaXF867p00j5m
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=rUg082ymcje8B
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7761
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2648678 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403135 1554403135 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 34382 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:09:32.615080	1554404972.615080: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:33.614885	1554404973.614885: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:35.615628	1554404975.615628: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:39.615809	1554404979.615809: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:43.616613	1554404983.616613: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:47.616834	1554404987.616834: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:51.617526	1554404991.617526: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:55.616821	1554404995.616821: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:09:59.616857	1554404999.616857: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:10:00.976060	1554405000.976060: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:10:03.617131	1554405003.617131: Continuing call on an unexpected BYE for call: 1-7762@10.204.66.46.
+2019-04-05	06:11:31.003859	1554405091.003859: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:01.031769	1554405181.031769: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:04.623431	1554405184.623431: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKvQUBHev8HD22e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=tFN4XvpXDyctr
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7825
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2647963 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403379 1554403379 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 21198 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:13:05.623169	1554405185.623169: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKvQUBHev8HD22e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=tFN4XvpXDyctr
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7825
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2647963 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403379 1554403379 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 21198 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:13:07.623592	1554405187.623592: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKvQUBHev8HD22e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=tFN4XvpXDyctr
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7825
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2647963 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403379 1554403379 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 21198 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:13:11.624686	1554405191.624686: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKvQUBHev8HD22e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=tFN4XvpXDyctr
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7825
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2647963 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403379 1554403379 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 21198 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:13:19.624922	1554405199.624922: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKvQUBHev8HD22e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=tFN4XvpXDyctr
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7825
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2647963 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403379 1554403379 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 21198 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:13:35.626695	1554405215.626695: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:5020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5080;branch=z9hG4bKvQUBHev8HD22e
+Max-Forwards: 70
+From: service <sip:service@10.204.66.46:5080>;tag=tFN4XvpXDyctr
+To: sipp <sip:sipp@10.204.66.46:5020>;tag=sipp_1_7825
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2647963 INVITE
+Contact: <sip:10.204.66.46:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 200
+
+v=0
+o=- 1554403379 1554403379 IN IP4 10.204.66.46
+s=media server session
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 21198 RTP/AVP 98
+a=rtpmap:98 DVC-2/48000
+a=fmtp:98 mode=ss;source=server;version=1
+'.
+2019-04-05	06:13:36.623765	1554405216.623765: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:37.624569	1554405217.624569: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:39.623832	1554405219.623832: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:43.623795	1554405223.623795: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:47.623858	1554405227.623858: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:51.623842	1554405231.623842: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:55.624049	1554405235.624049: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:59.623994	1554405239.623994: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:14:03.624057	1554405243.624057: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:14:07.624493	1554405247.624493: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:43:00.916805	1554406980.916805: 3PCC controller A has ended -> exiting.

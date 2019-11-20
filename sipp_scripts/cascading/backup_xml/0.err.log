@@ -1,0 +1,593 @@
+sipp: The following events occured:
+2019-02-20	17:20:49.869357	1550683249.869357: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:20:50.282054	1550683250.282054: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+.
+2019-02-20	17:20:51.869533	1550683251.869533: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:20:54.284258	1550683254.284258: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+.
+2019-02-20	17:20:55.872205	1550683255.872205: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:20:58.285026	1550683258.285026: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+.
+2019-02-20	17:20:59.874370	1550683259.874370: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:21:02.285672	1550683262.285672: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+.
+2019-02-20	17:21:03.876733	1550683263.876733: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:21:06.287061	1550683266.287061: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+.
+2019-02-20	17:21:07.878536	1550683267.878536: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:21:10.289001	1550683270.289001: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK8X578tm42cXpK
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=16Nc2BcepH9yg
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4247
+Call-ID: 1-4247@10.204.66.46
+CSeq: 765961 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Reason: SIP;cause=408;text="ACK Timeout"
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Timeout
+
+.
+2019-02-20	17:21:11.880709	1550683271.880709: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:21:15.883206	1550683275.883206: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:21:19.885991	1550683279.885991: Continuing call on unexpected message for Call-Id '1-4255@10.204.66.46': while pausing (index 12), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.204.66.46:6020;branch=z9hG4bK-4255-1-0
+From: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_4255
+To: service <sip:service@10.204.66.84:5080>;tag=p48m73DrScX7K
+Call-ID: 1-4255@10.204.66.46
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 1463
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.4893022 - Production
+
+v=0
+o=- 1550639516 1550639516 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 25138 RTP/AVP 97 0 8 9 120 111 112 113 114 115 124 125 99 101 102 103 104
+a=rtpmap:97 DVC-2/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:120 opus/48000
+a=fmtp:120 useinbandfec=1;sprop-stereo=1
+a=rtpmap:111 AMR/8000/1
+a=fmtp:111 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:112 AMR/8000/1
+a=fmtp:112 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=1
+a=rtpmap:113 AMR/8000/1
+a=fmtp:113 octet-align=0;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=0;robust-sorting=0
+a=rtpmap:114 AMR/8000/1
+a=fmtp:114 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=0
+a=rtpmap:115 AMR/8000/1
+a=fmtp:115 octet-align=1;mode-change-period=1;mode-change-capability=2;mode-change-neighbor=0;max-red=0;crc=1;robust-sorting=1
+a=rtpmap:124 G7221/32000
+a=fmtp:124 bitrate=48000
+a=rtpmap:125 G7221/16000
+a=fmtp:125 bitrate=32000
+a=rtpmap:99 L16/32000/1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtpmap:102 telephone-event/16000
+a=fmtp:102 0-15
+a=rtpmap:103 telephone-event/32000
+a=fmtp:103 0-15
+a=rtpmap:104 telephone-event/48000
+a=fmtp:104 0-15
+a=ptime:20
+'.
+2019-02-20	17:21:20.378804	1550683280.378804: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:21.384612	1550683281.384612: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:23.389071	1550683283.389071: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:27.393896	1550683287.393896: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:31.399580	1550683291.399580: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:35.405433	1550683295.405433: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:39.409261	1550683299.409261: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:43.415910	1550683303.415910: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:47.421748	1550683307.421748: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.
+2019-02-20	17:21:51.426741	1550683311.426741: Continuing call on an unexpected BYE for call: 1-4255@10.204.66.46.

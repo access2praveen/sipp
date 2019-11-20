@@ -1,0 +1,114 @@
+opusinfo *.opus
+Processing file "btdummy_dvcs_40000_40004.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 1
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:   1300.0ms (max),  928.1ms (avg),  660.0ms (min)
+        Total data length: 154832 bytes (overhead: 1.83%)
+        Playback length: 0m:34.339s
+        Average bitrate: 36.07 kb/s, w/o overhead: 35.41 kb/s
+Processing file "btdummy_dvcs_40002_4000.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 1
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:    960.0ms (max),  851.2ms (avg),  260.0ms (min)
+        Total data length: 102407 bytes (overhead: 1.81%)
+        Playback length: 0m:21.279s
+        Average bitrate: 38.5 kb/s, w/o overhead: 37.8 kb/s
+Processing file "btdummy_dvcs_40004_4002.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 1
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:   1300.0ms (max),  912.4ms (avg),   80.0ms (min)
+        Total data length: 173482 bytes (overhead: 1.82%)
+        Playback length: 0m:38.320s
+        Average bitrate: 36.22 kb/s, w/o overhead: 35.56 kb/s
+Processing file "btdummy_dvcs_40006_40006.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 1
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:    960.0ms (max),  866.4ms (avg),  720.0ms (min)
+        Total data length: 91710 bytes (overhead: 1.81%)
+        Playback length: 0m:19.059s
+        Average bitrate: 38.49 kb/s, w/o overhead: 37.8 kb/s
+Processing file "dvcs_btdummy_40002_40004.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 2
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:   1000.0ms (max),  852.8ms (avg),  540.0ms (min)
+        Total data length: 373201 bytes (overhead: 1.69%)
+        Playback length: 1m:15.899s
+        Average bitrate: 39.34 kb/s, w/o overhead: 38.67 kb/s
+Processing file "dvcs_btdummy_40004_40000.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 1
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:   1020.0ms (max),  858.6ms (avg),  480.0ms (min)
+        Total data length: 411584 bytes (overhead: 1.69%)
+        Playback length: 1m:24.140s
+        Average bitrate: 39.13 kb/s, w/o overhead: 38.47 kb/s
+Processing file "dvcs_btdummy_4006_4006.opus"...
+
+New logical stream (#1, serial: 000041a7): type opus
+WARNING: Implausibly low preskip in Opus stream (1)
+Encoded with opus rtp packet dump
+WARNING: EOS not set on stream 1 (normal for live streams)
+Opus stream 1:
+        Pre-skip: 0
+        Playback gain: 0 dB
+        Channels: 2
+        Original sample rate: 48000Hz
+        Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+        Page duration:    900.0ms (max),  833.5ms (avg),  640.0ms (min)
+        Total data length: 429255 bytes (overhead: 1.66%)
+        Playback length: 1m:25.019s
+        Average bitrate: 40.39 kb/s, w/o overhead: 39.72 kb/s
+

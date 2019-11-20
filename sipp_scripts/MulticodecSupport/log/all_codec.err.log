@@ -1,0 +1,278 @@
+sipp: The following events occured:
+2019-10-30	13:36:14.229340	1572402974.229340: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:15.230028	1572402975.230028: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:17.231709	1572402977.231709: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:21.232946	1572402981.232946: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:25.233976	1572402985.233976: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:29.235272	1572402989.235272: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:33.235948	1572402993.235948: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:37.236966	1572402997.236966: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:41.238050	1572403001.238050: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:45.239327	1572403005.239327: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKjc8vmtZt6NrXa
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647843 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 173
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0">
+    <name>speaker</name>
+    <value>conn:8Qeg1UQDKpvjg</value>
+  </event>
+</msml>
+.
+2019-10-30	13:36:46.229644	1572403006.229644: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKKN1NpNgy3yegp
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647844 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+.
+2019-10-30	13:36:47.231017	1572403007.231017: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKKN1NpNgy3yegp
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647844 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+.
+2019-10-30	13:36:49.232354	1572403009.232354: Discarding message which can't be mapped to a known SIPp call:
+INFO sip:sipp@10.204.66.5:5120 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKKN1NpNgy3yegp
+Max-Forwards: 70
+From: sut <sip:service@10.204.66.84:5080>;tag=rXZ6cSUcy4y8B
+To: sipp <sip:sipp@10.204.66.5:5120>;tag=1
+Call-ID: 1-3473@10.204.66.5
+CSeq: 11647844 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 101
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <event name="msml.conf.asn" id="conf:conf_0" />
+</msml>
+.

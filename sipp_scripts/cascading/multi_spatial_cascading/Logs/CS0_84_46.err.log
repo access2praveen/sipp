@@ -1,0 +1,865 @@
+sipp: The following events occured:
+2019-04-05	05:44:30.438893	1554403470.438893: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:46:02.030493	1554403562.030493: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:47:32.049498	1554403652.049498: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:49:02.690460	1554403742.690460: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:50:32.710024	1554403832.710024: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:52:02.722544	1554403922.722544: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:53:32.729435	1554404012.729435: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:55:02.753084	1554404102.753084: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:56:34.020285	1554404194.020285: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:58:04.043137	1554404284.043137: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	05:59:38.014053	1554404378.014053: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:01:08.040503	1554404468.040503: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:02:38.039981	1554404558.039981: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:04:08.145016	1554404648.145016: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:05:38.169387	1554404738.169387: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:07:08.184262	1554404828.184262: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:07:51.059447	1554404871.059447: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXHQ1cp82j4emQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626440 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358668 1554358668 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 42306 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:07:52.059735	1554404872.059735: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXHQ1cp82j4emQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626440 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358668 1554358668 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 42306 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:07:54.059319	1554404874.059319: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXHQ1cp82j4emQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626440 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358668 1554358668 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 42306 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:07:58.059782	1554404878.059782: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXHQ1cp82j4emQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626440 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358668 1554358668 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 42306 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:08:06.060558	1554404886.060558: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXHQ1cp82j4emQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626440 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358668 1554358668 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 42306 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:08:22.060540	1554404902.060540: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKXHQ1cp82j4emQ
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626440 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358668 1554358668 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 42306 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:08:23.059656	1554404903.059656: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:24.059839	1554404904.059839: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:26.060075	1554404906.060075: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:30.060477	1554404910.060477: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:34.060930	1554404914.060930: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:38.061436	1554404918.061436: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:42.029693	1554404922.029693: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:08:42.061658	1554404922.061658: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:46.062736	1554404926.062736: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:50.063751	1554404930.063751: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:08:54.064061	1554404934.064061: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKytgteHS6FD56j
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=mtU0D1603212p
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7741
+Call-ID: 1-7741@10.204.66.46
+CSeq: 2626441 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:00.061372	1554404940.061372: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0c3Bj7tDaZHca
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626474 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358728 1554358728 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 29076 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:09:01.061468	1554404941.061468: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0c3Bj7tDaZHca
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626474 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358728 1554358728 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 29076 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:09:03.061872	1554404943.061872: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0c3Bj7tDaZHca
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626474 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358728 1554358728 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 29076 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:09:07.061861	1554404947.061861: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0c3Bj7tDaZHca
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626474 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358728 1554358728 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 29076 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:09:15.062393	1554404955.062393: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0c3Bj7tDaZHca
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626474 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358728 1554358728 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 29076 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:09:31.063682	1554404971.063682: Discarding message which can't be mapped to a known SIPp call:
+INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK0c3Bj7tDaZHca
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626474 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358728 1554358728 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 29076 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+.
+2019-04-05	06:09:32.062727	1554404972.062727: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:33.063568	1554404973.063568: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:35.063761	1554404975.063761: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:39.064176	1554404979.064176: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:43.064919	1554404983.064919: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:47.065886	1554404987.065886: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:51.066851	1554404991.066851: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:55.066562	1554404995.066562: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:09:59.067275	1554404999.067275: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:10:03.068204	1554405003.068204: Discarding message which can't be mapped to a known SIPp call:
+BYE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK1Nv4K2BH777yN
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=4BS62KFaSeF4j
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7762
+Call-ID: 1-7762@10.204.66.46
+CSeq: 2626475 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-BYE-Reason: Failure
+
+.
+2019-04-05	06:10:12.057638	1554405012.057638: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:11:44.454572	1554405104.454572: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:12:55.067390	1554405175.067390: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4g8eSKyUy2aQr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=XjygB1Up2y86H
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7826
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2625758 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358973 1554358973 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 30194 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-04-05	06:12:56.067418	1554405176.067418: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4g8eSKyUy2aQr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=XjygB1Up2y86H
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7826
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2625758 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358973 1554358973 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 30194 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-04-05	06:12:58.067777	1554405178.067777: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4g8eSKyUy2aQr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=XjygB1Up2y86H
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7826
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2625758 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358973 1554358973 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 30194 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-04-05	06:13:02.068524	1554405182.068524: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4g8eSKyUy2aQr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=XjygB1Up2y86H
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7826
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2625758 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358973 1554358973 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 30194 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-04-05	06:13:10.069467	1554405190.069467: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4g8eSKyUy2aQr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=XjygB1Up2y86H
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7826
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2625758 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358973 1554358973 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 30194 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-04-05	06:13:14.481993	1554405194.481993: Automatic response mode for an unexpected INFO, NOTIFY, OPTIONS or UPDATE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:26.069730	1554405206.069730: Continuing call on unexpected message for Call-Id '1-7826@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bK4g8eSKyUy2aQr
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=XjygB1Up2y86H
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_7826
+Call-ID: 1-7826@10.204.66.46
+CSeq: 2625758 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1554358973 1554358973 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 30194 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-04-05	06:13:27.067764	1554405207.067764: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:28.067372	1554405208.067372: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:30.067424	1554405210.067424: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:34.068114	1554405214.068114: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:38.069210	1554405218.069210: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:42.069726	1554405222.069726: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:46.069505	1554405226.069505: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:50.069559	1554405230.069559: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:54.069641	1554405234.069641: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.
+2019-04-05	06:13:58.069776	1554405238.069776: Continuing call on an unexpected BYE for call: 1-7826@10.204.66.46.

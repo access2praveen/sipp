@@ -1,0 +1,4 @@
+sipp: The following events occured:
+2019-09-10	09:58:06.390241	1568073486.390241: Continuing call on an unexpected BYE for call: 1-12885@10.204.66.5.
+2019-09-10	15:58:41.957359	1568095121.957359: Overload warning: the major watchdog timer 3000ms has been tripped (937636), 9 trips remaining..
+2019-09-10	16:08:42.297670	1568095722.297670: Resetting watchdog timer trigger counts, as it has not been triggered in over 600344ms..

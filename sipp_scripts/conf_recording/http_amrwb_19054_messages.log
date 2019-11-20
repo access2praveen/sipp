@@ -1,0 +1,2610 @@
+----------------------------------------------- 2019-11-14 16:15:49.853054
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-1-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 1-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:49.853753
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-1-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 1-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:49.854058
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-1-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KamSeppNjpQ0g
+Call-ID: 1-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-1-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KamSeppNjpQ0g
+Call-ID: 1-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:49.854205
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-1-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KamSeppNjpQ0g
+Call-ID: 1-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:49.952891
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-2-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=2
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 2-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:49.953510
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-2-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=2
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 2-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:49.953859
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-2-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=2
+To: sut <sip:service@10.204.66.84:5080>;tag=mKDjgH7rFZDKc
+Call-ID: 2-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-2-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=2
+To: sut <sip:service@10.204.66.84:5080>;tag=mKDjgH7rFZDKc
+Call-ID: 2-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:49.954010
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-2-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=2
+To: sut <sip:service@10.204.66.84:5080>;tag=mKDjgH7rFZDKc
+Call-ID: 2-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.053979
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-3-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=3
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 3-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.054580
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-3-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=3
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 3-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.054894
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-3-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=3
+To: sut <sip:service@10.204.66.84:5080>;tag=Nv6ajcrvc835Q
+Call-ID: 3-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-3-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=3
+To: sut <sip:service@10.204.66.84:5080>;tag=Nv6ajcrvc835Q
+Call-ID: 3-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.054981
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-3-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=3
+To: sut <sip:service@10.204.66.84:5080>;tag=Nv6ajcrvc835Q
+Call-ID: 3-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.152943
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-4-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=4
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 4-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.153581
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-4-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=4
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 4-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.153918
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-4-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=4
+To: sut <sip:service@10.204.66.84:5080>;tag=QeSvN2S36SgBF
+Call-ID: 4-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-4-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=4
+To: sut <sip:service@10.204.66.84:5080>;tag=QeSvN2S36SgBF
+Call-ID: 4-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.154034
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-4-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=4
+To: sut <sip:service@10.204.66.84:5080>;tag=QeSvN2S36SgBF
+Call-ID: 4-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.253085
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-5-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=5
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 5-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.253714
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-5-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=5
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 5-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.254037
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-5-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=5
+To: sut <sip:service@10.204.66.84:5080>;tag=rQjNQXa7326Xa
+Call-ID: 5-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-5-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=5
+To: sut <sip:service@10.204.66.84:5080>;tag=rQjNQXa7326Xa
+Call-ID: 5-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.254112
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-5-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=5
+To: sut <sip:service@10.204.66.84:5080>;tag=rQjNQXa7326Xa
+Call-ID: 5-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.353297
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-6-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=6
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 6-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.353939
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-6-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=6
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 6-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.354256
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-6-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=6
+To: sut <sip:service@10.204.66.84:5080>;tag=S0BeSrUa1BXgp
+Call-ID: 6-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-6-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=6
+To: sut <sip:service@10.204.66.84:5080>;tag=S0BeSrUa1BXgp
+Call-ID: 6-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.354477
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-6-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=6
+To: sut <sip:service@10.204.66.84:5080>;tag=S0BeSrUa1BXgp
+Call-ID: 6-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.453817
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-7-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=7
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 7-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.454449
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-7-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=7
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 7-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.454778
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-7-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=7
+To: sut <sip:service@10.204.66.84:5080>;tag=t946tKceymK3H
+Call-ID: 7-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-7-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=7
+To: sut <sip:service@10.204.66.84:5080>;tag=t946tKceymK3H
+Call-ID: 7-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.454860
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-7-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=7
+To: sut <sip:service@10.204.66.84:5080>;tag=t946tKceymK3H
+Call-ID: 7-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.553320
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-8-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=8
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 8-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.553945
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-8-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=8
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 8-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.554245
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-8-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=8
+To: sut <sip:service@10.204.66.84:5080>;tag=UjyZveXHUX9ND
+Call-ID: 8-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-8-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=8
+To: sut <sip:service@10.204.66.84:5080>;tag=UjyZveXHUX9ND
+Call-ID: 8-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.554355
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-8-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=8
+To: sut <sip:service@10.204.66.84:5080>;tag=UjyZveXHUX9ND
+Call-ID: 8-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.653758
+UDP message sent (684 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-9-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=9
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 9-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.654276
+UDP message received [270] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-9-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=9
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 9-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.654574
+UDP message received [464] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-9-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=9
+To: sut <sip:service@10.204.66.84:5080>;tag=vUQry9DNr6Z8r
+Call-ID: 9-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-9-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=9
+To: sut <sip:service@10.204.66.84:5080>;tag=vUQry9DNr6Z8r
+Call-ID: 9-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.654662
+UDP message sent (369 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-9-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=9
+To: sut <sip:service@10.204.66.84:5080>;tag=vUQry9DNr6Z8r
+Call-ID: 9-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.754350
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-10-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=10
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 10-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.755058
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-10-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=10
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 10-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.755446
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-10-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=10
+To: sut <sip:service@10.204.66.84:5080>;tag=X4gH04yrNFpUm
+Call-ID: 10-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-10-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=10
+To: sut <sip:service@10.204.66.84:5080>;tag=X4gH04yrNFpUm
+Call-ID: 10-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.755541
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-10-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=10
+To: sut <sip:service@10.204.66.84:5080>;tag=X4gH04yrNFpUm
+Call-ID: 10-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.854055
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-11-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=11
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 11-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.854731
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-11-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=11
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 11-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.854989
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-11-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=11
+To: sut <sip:service@10.204.66.84:5080>;tag=yDaa2ZFvjrceg
+Call-ID: 11-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-11-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=11
+To: sut <sip:service@10.204.66.84:5080>;tag=yDaa2ZFvjrceg
+Call-ID: 11-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.855192
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-11-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=11
+To: sut <sip:service@10.204.66.84:5080>;tag=yDaa2ZFvjrceg
+Call-ID: 11-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.953207
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-12-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=12
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 12-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:50.953946
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-12-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=12
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 12-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.954291
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-12-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=12
+To: sut <sip:service@10.204.66.84:5080>;tag=Zp323t0ZF120B
+Call-ID: 12-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-12-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=12
+To: sut <sip:service@10.204.66.84:5080>;tag=Zp323t0ZF120B
+Call-ID: 12-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:50.954431
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-12-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=12
+To: sut <sip:service@10.204.66.84:5080>;tag=Zp323t0ZF120B
+Call-ID: 12-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.053344
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-13-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=13
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 13-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.053989
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-13-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=13
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 13-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.054313
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-13-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=13
+To: sut <sip:service@10.204.66.84:5080>;tag=0ZvU5NH3caSKQ
+Call-ID: 13-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-13-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=13
+To: sut <sip:service@10.204.66.84:5080>;tag=0ZvU5NH3caSKQ
+Call-ID: 13-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.054439
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-13-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=13
+To: sut <sip:service@10.204.66.84:5080>;tag=0ZvU5NH3caSKQ
+Call-ID: 13-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.152934
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-14-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=14
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 14-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.153649
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-14-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=14
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 14-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.154020
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-14-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=14
+To: sut <sip:service@10.204.66.84:5080>;tag=18Nm7g269jF6j
+Call-ID: 14-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-14-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=14
+To: sut <sip:service@10.204.66.84:5080>;tag=18Nm7g269jF6j
+Call-ID: 14-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.154135
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-14-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=14
+To: sut <sip:service@10.204.66.84:5080>;tag=18Nm7g269jF6j
+Call-ID: 14-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.253698
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-15-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=15
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 15-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.254325
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-15-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=15
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 15-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.254722
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-15-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=15
+To: sut <sip:service@10.204.66.84:5080>;tag=2HFD9BKa7U5re
+Call-ID: 15-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-15-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=15
+To: sut <sip:service@10.204.66.84:5080>;tag=2HFD9BKa7U5re
+Call-ID: 15-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.254823
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-15-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=15
+To: sut <sip:service@10.204.66.84:5080>;tag=2HFD9BKa7U5re
+Call-ID: 15-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.353358
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-16-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=16
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 16-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.353949
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-16-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=16
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 16-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.354279
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-16-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=16
+To: sut <sip:service@10.204.66.84:5080>;tag=3t85a73D44UBa
+Call-ID: 16-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-16-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=16
+To: sut <sip:service@10.204.66.84:5080>;tag=3t85a73D44UBa
+Call-ID: 16-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.354368
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-16-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=16
+To: sut <sip:service@10.204.66.84:5080>;tag=3t85a73D44UBa
+Call-ID: 16-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.452892
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-17-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=17
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 17-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.453428
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-17-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=17
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 17-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.453743
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-17-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=17
+To: sut <sip:service@10.204.66.84:5080>;tag=431yc2mH1DjyN
+Call-ID: 17-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-17-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=17
+To: sut <sip:service@10.204.66.84:5080>;tag=431yc2mH1DjyN
+Call-ID: 17-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.453875
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-17-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=17
+To: sut <sip:service@10.204.66.84:5080>;tag=431yc2mH1DjyN
+Call-ID: 17-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.553400
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-18-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=18
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 18-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.554075
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-18-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=18
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 18-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.554422
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-18-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=18
+To: sut <sip:service@10.204.66.84:5080>;tag=5cUQeX5myp8gH
+Call-ID: 18-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-18-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=18
+To: sut <sip:service@10.204.66.84:5080>;tag=5cUQeX5myp8gH
+Call-ID: 18-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.554522
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-18-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=18
+To: sut <sip:service@10.204.66.84:5080>;tag=5cUQeX5myp8gH
+Call-ID: 18-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.653439
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-19-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=19
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 19-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.654072
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-19-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=19
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 19-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.654380
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-19-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=19
+To: sut <sip:service@10.204.66.84:5080>;tag=6NmggrprUZy3c
+Call-ID: 19-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-19-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=19
+To: sut <sip:service@10.204.66.84:5080>;tag=6NmggrprUZy3c
+Call-ID: 19-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.654497
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-19-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=19
+To: sut <sip:service@10.204.66.84:5080>;tag=6NmggrprUZy3c
+Call-ID: 19-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.753148
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-20-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=20
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 20-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.753710
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-20-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=20
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 20-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.753993
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-20-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=20
+To: sut <sip:service@10.204.66.84:5080>;tag=7yD9HK7Ur8mpr
+Call-ID: 20-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-20-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=20
+To: sut <sip:service@10.204.66.84:5080>;tag=7yD9HK7Ur8mpr
+Call-ID: 20-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.754100
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-20-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=20
+To: sut <sip:service@10.204.66.84:5080>;tag=7yD9HK7Ur8mpr
+Call-ID: 20-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.853114
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-21-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=21
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 21-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.853678
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-21-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=21
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 21-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.853968
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-21-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=21
+To: sut <sip:service@10.204.66.84:5080>;tag=8761KerZNHB9K
+Call-ID: 21-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-21-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=21
+To: sut <sip:service@10.204.66.84:5080>;tag=8761KerZNHB9K
+Call-ID: 21-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.854123
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-21-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=21
+To: sut <sip:service@10.204.66.84:5080>;tag=8761KerZNHB9K
+Call-ID: 21-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.953520
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-22-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=22
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 22-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:51.954041
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-22-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=22
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 22-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.954366
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-22-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=22
+To: sut <sip:service@10.204.66.84:5080>;tag=9g0tN982jt1UF
+Call-ID: 22-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-22-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=22
+To: sut <sip:service@10.204.66.84:5080>;tag=9g0tN982jt1UF
+Call-ID: 22-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:51.954490
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-22-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=22
+To: sut <sip:service@10.204.66.84:5080>;tag=9g0tN982jt1UF
+Call-ID: 22-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.053707
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-23-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=23
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 23-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.054249
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-23-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=23
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 23-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.054513
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-23-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=23
+To: sut <sip:service@10.204.66.84:5080>;tag=atSKQ4S6F3QeB
+Call-ID: 23-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-23-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=23
+To: sut <sip:service@10.204.66.84:5080>;tag=atSKQ4S6F3QeB
+Call-ID: 23-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.054710
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-23-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=23
+To: sut <sip:service@10.204.66.84:5080>;tag=atSKQ4S6F3QeB
+Call-ID: 23-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.152998
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-24-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=24
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 24-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.153488
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-24-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=24
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 24-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.153699
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-24-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=24
+To: sut <sip:service@10.204.66.84:5080>;tag=B3jcSZaaDce1p
+Call-ID: 24-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-24-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=24
+To: sut <sip:service@10.204.66.84:5080>;tag=B3jcSZaaDce1p
+Call-ID: 24-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.153809
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-24-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=24
+To: sut <sip:service@10.204.66.84:5080>;tag=B3jcSZaaDce1p
+Call-ID: 24-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.253148
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-25-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=25
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 25-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.253686
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-25-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=25
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 25-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.253894
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-25-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=25
+To: sut <sip:service@10.204.66.84:5080>;tag=ccc5ttUDaN4Kj
+Call-ID: 25-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-25-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=25
+To: sut <sip:service@10.204.66.84:5080>;tag=ccc5ttUDaN4Kj
+Call-ID: 25-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.254087
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-25-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=25
+To: sut <sip:service@10.204.66.84:5080>;tag=ccc5ttUDaN4Kj
+Call-ID: 25-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.353431
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-26-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=26
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 26-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.354065
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-26-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=26
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 26-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.354385
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-26-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=26
+To: sut <sip:service@10.204.66.84:5080>;tag=DN5XvNcH7Xt6D
+Call-ID: 26-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-26-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=26
+To: sut <sip:service@10.204.66.84:5080>;tag=DN5XvNcH7Xt6D
+Call-ID: 26-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.354500
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-26-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=26
+To: sut <sip:service@10.204.66.84:5080>;tag=DN5XvNcH7Xt6D
+Call-ID: 26-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.453463
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-27-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=27
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 27-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.454052
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-27-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=27
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 27-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.454355
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-27-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=27
+To: sut <sip:service@10.204.66.84:5080>;tag=eyypygXm46gSS
+Call-ID: 27-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-27-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=27
+To: sut <sip:service@10.204.66.84:5080>;tag=eyypygXm46gSS
+Call-ID: 27-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.454434
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-27-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=27
+To: sut <sip:service@10.204.66.84:5080>;tag=eyypygXm46gSS
+Call-ID: 27-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.553885
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-28-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=28
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 28-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.554479
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-28-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=28
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 28-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.554833
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-28-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=28
+To: sut <sip:service@10.204.66.84:5080>;tag=F7QF0Ber1F7BN
+Call-ID: 28-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-28-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=28
+To: sut <sip:service@10.204.66.84:5080>;tag=F7QF0Ber1F7BN
+Call-ID: 28-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.554949
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-28-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=28
+To: sut <sip:service@10.204.66.84:5080>;tag=F7QF0Ber1F7BN
+Call-ID: 28-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.653989
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-29-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=29
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 29-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.654583
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-29-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=29
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 29-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.654938
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-29-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=29
+To: sut <sip:service@10.204.66.84:5080>;tag=ggH816yUyrXyg
+Call-ID: 29-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-29-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=29
+To: sut <sip:service@10.204.66.84:5080>;tag=ggH816yUyrXyg
+Call-ID: 29-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.655060
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-29-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=29
+To: sut <sip:service@10.204.66.84:5080>;tag=ggH816yUyrXyg
+Call-ID: 29-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.753281
+UDP message sent (687 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-30-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=30
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 30-19054@10.204.66.5
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.5:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   196
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.5
+s=-
+c=IN IP4 10.204.66.5
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-14 16:15:52.753992
+UDP message received [273] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-30-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=30
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 30-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.754257
+UDP message received [467] bytes :
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-30-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=30
+To: sut <sip:service@10.204.66.84:5080>;tag=HSa131FZU1KHc
+Call-ID: 30-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+-----------------------------------------------
+Unexpected UDP message received:
+
+SIP/2.0 480 Temporarily Unavailable
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-30-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=30
+To: sut <sip:service@10.204.66.84:5080>;tag=HSa131FZU1KHc
+Call-ID: 30-19054@10.204.66.5
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-14 16:15:52.754486
+UDP message sent (372 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.5:5061;branch=z9hG4bK-19054-30-0
+From: sipp <sip:sipp@10.204.66.5:5061>;tag=30
+To: sut <sip:service@10.204.66.84:5080>;tag=HSa131FZU1KHc
+Call-ID: 30-19054@10.204.66.5
+CSeq: 1 ACK
+Contact: <sip:sipp@10.204.66.5:5061;transport=UDP>
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+

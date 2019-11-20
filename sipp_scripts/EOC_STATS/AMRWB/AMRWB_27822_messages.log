@@ -1,0 +1,411 @@
+----------------------------------------------- 2019-11-05 14:59:54.617993
+UDP message sent (718 bytes):
+
+INVITE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-0
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 1-27822@127.0.1.1
+CSeq: 1 INVITE
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   192
+X-DolbyVoice-Client-LogId: 3339_joinfixed_apoff_mute_apon_unmute.xml
+X-DolbyVoice-Stats: conn.audio.out.latency.*
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.1.1
+s=-
+c=IN IP4 127.0.1.1
+t=0 0
+m=audio 6000 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-11-05 14:59:54.618664
+UDP message received [285] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-0;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>
+Call-ID: 1-27822@127.0.1.1
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-05 14:59:54.639971
+UDP message received [1089] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-0;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 1 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uas
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 333
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 3.0.0.5209345 - Production
+
+v=0
+o=- 1572926971 1572926971 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 23796 RTP/AVP 96 110
+a=rtpmap:96 AMR-WB/16000/1
+a=fmtp:96 max-red=0;mode-change-capability=2;mode-change-neighbor=0;mode-change-period=1
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-15
+a=ptime:20
+a=maxptime:20
+
+----------------------------------------------- 2019-11-05 14:59:54.640367
+UDP message sent (345 bytes):
+
+ACK sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 1 ACK
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-05 14:59:56.646223
+UDP message sent (718 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-8
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 2 INFO
+Contact: sip:sipp@127.0.1.1:5061
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   172
+
+<msml version="1.1">
+<createconference name="conf_0" deletewhen="nomedia">
+<audiomix>
+<asn ri=" 90s" />
+<n-loudest n="4" />
+</audiomix>
+</createconference>
+</msml>
+
+----------------------------------------------- 2019-11-05 14:59:56.647049
+UDP message received [628] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-8;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 2 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 159
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="432">
+    <description>Conference already exists: conf:conf_0</description>
+  </result>
+</msml>
+
+----------------------------------------------- 2019-11-05 14:59:57.650524
+UDP message sent (819 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-12
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 3 INFO
+Contact: sip:sipp@127.0.1.1:5061
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   272
+
+<msml version="1.1">
+<join id1="conn:KZZS2grr6Ur8e" id2="conf:conf_0">
+<stream dir="to-id1" media="audio">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio">
+<clamp dtmf="true" />
+<gain amt="0" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-11-05 14:59:57.651621
+UDP message received [548] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-12;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 3 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:08.662540
+UDP message sent (821 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-18
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 4 INFO
+Contact: sip:sipp@127.0.1.1:5061
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   274
+
+<msml version="1.1">
+<join id1="conn:KZZS2grr6Ur8e" id2="conf:conf_0">
+<stream dir="to-id1" media="audio">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio">
+<clamp dtmf="true" />
+<gain amt="-15" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:08.663849
+UDP message received [548] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-18;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 4 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:18.670320
+UDP message sent (820 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-22
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 5 INFO
+Contact: sip:sipp@127.0.1.1:5061
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   273
+
+<msml version="1.1">
+<join id1="conn:KZZS2grr6Ur8e" id2="conf:conf_0">
+<stream dir="to-id1" media="audio">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio">
+<clamp dtmf="true" />
+<gain amt="30" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:18.671246
+UDP message received [548] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-22;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 5 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:28.674764
+UDP message sent (822 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-26
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 6 INFO
+Contact: sip:sipp@127.0.1.1:5061
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   275
+
+<msml version="1.1">
+<join id1="conn:KZZS2grr6Ur8e" id2="conf:conf_0">
+<stream dir="to-id1" media="audio">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio">
+<clamp dtmf="true" />
+<gain amt="mute" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:28.675888
+UDP message received [548] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-26;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 6 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:33.682461
+UDP message sent (824 bytes):
+
+INFO sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-30
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 7 INFO
+Contact: sip:sipp@127.0.1.1:5061
+Accept: application/sdp, text/*, application/msml+xml, application/moml+xml
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: 100rel
+Content-Type: application/msml+xml
+Content-Length:   277
+
+<msml version="1.1">
+<join id1="conn:KZZS2grr6Ur8e" id2="conf:conf_0">
+<stream dir="to-id1" media="audio">
+<clamp dtmf="false" />
+<gain amt="0" />
+</stream>
+<stream dir="from-id1" media="audio">
+<clamp dtmf="true" />
+<gain amt="unmute" />
+</stream>
+</join>
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:33.683736
+UDP message received [548] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-30;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 7 INFO
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Type: application/msml+xml
+Content-Length: 79
+
+<?xml version="1.0"?>
+<msml version="1.1">
+  <result response="200" />
+</msml>
+
+----------------------------------------------- 2019-11-05 15:00:43.689130
+UDP message sent (346 bytes):
+
+BYE sip:service@10.204.66.84:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-33
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 8 BYE
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-05 15:00:43.710213
+UDP message received [431] bytes :
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-27822-1-33;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=1
+To: sut <sip:service@10.204.66.84:5080>;tag=KZZS2grr6Ur8e
+Call-ID: 1-27822@127.0.1.1
+CSeq: 8 BYE
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+
+

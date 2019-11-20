@@ -1,0 +1,156 @@
+----------------------------------------------- 2019-05-14 01:24:14.653710
+UDP message sent (628 bytes):
+
+INVITE sip:service@10.204.66.22:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5061;branch=z9hG4bK-16419-1-0
+From: sipp <sip:sipp@10.204.66.46:5061>;tag=1
+To: sut <sip:service@10.204.66.22:5080>
+Call-ID: 1-16419@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   169
+X-DolbyVoice-Client-LogId: 3373.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 6004 RTP/AVP 9 110
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-05-14 01:24:15.154718
+UDP message sent (628 bytes):
+
+INVITE sip:service@10.204.66.22:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5061;branch=z9hG4bK-16419-1-0
+From: sipp <sip:sipp@10.204.66.46:5061>;tag=1
+To: sut <sip:service@10.204.66.22:5080>
+Call-ID: 1-16419@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   169
+X-DolbyVoice-Client-LogId: 3373.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 6004 RTP/AVP 9 110
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-05-14 01:24:16.157296
+UDP message sent (628 bytes):
+
+INVITE sip:service@10.204.66.22:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5061;branch=z9hG4bK-16419-1-0
+From: sipp <sip:sipp@10.204.66.46:5061>;tag=1
+To: sut <sip:service@10.204.66.22:5080>
+Call-ID: 1-16419@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   169
+X-DolbyVoice-Client-LogId: 3373.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 6004 RTP/AVP 9 110
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-05-14 01:24:18.159299
+UDP message sent (628 bytes):
+
+INVITE sip:service@10.204.66.22:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5061;branch=z9hG4bK-16419-1-0
+From: sipp <sip:sipp@10.204.66.46:5061>;tag=1
+To: sut <sip:service@10.204.66.22:5080>
+Call-ID: 1-16419@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   169
+X-DolbyVoice-Client-LogId: 3373.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 6004 RTP/AVP 9 110
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-05-14 01:24:22.160530
+UDP message sent (628 bytes):
+
+INVITE sip:service@10.204.66.22:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5061;branch=z9hG4bK-16419-1-0
+From: sipp <sip:sipp@10.204.66.46:5061>;tag=1
+To: sut <sip:service@10.204.66.22:5080>
+Call-ID: 1-16419@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   169
+X-DolbyVoice-Client-LogId: 3373.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 6004 RTP/AVP 9 110
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+
+----------------------------------------------- 2019-05-14 01:24:30.162408
+UDP message sent (628 bytes):
+
+INVITE sip:service@10.204.66.22:5080 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.46:5061;branch=z9hG4bK-16419-1-0
+From: sipp <sip:sipp@10.204.66.46:5061>;tag=1
+To: sut <sip:service@10.204.66.22:5080>
+Call-ID: 1-16419@10.204.66.46
+CSeq: 1 INVITE
+Contact: sip:sipp@10.204.66.46:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   169
+X-DolbyVoice-Client-LogId: 3373.xml
+X-DolbyVoice-MediaServer-MultiCodec:   0
+
+v=0
+o=user1 53655765 2353687637 IN IP4 10.204.66.46
+s=-
+c=IN IP4 10.204.66.46
+t=0 0
+m=audio 6004 RTP/AVP 9 110
+a=rtpmap:110 telephone-event/8000
+a=fmtp:110 0-16
+

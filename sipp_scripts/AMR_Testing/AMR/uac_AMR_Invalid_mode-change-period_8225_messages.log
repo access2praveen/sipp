@@ -1,0 +1,71 @@
+----------------------------------------------- 2019-11-04 10:15:45.081296
+UDP message sent (638 bytes):
+
+INVITE sip:service@10.204.66.87:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-8225-1-0
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=8225SIPpTag001
+To: service <sip:service@10.204.66.87:5080>
+Call-ID: 1-8225@127.0.1.1
+CSeq: 1 INVITE
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   255
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.1.1
+s=-
+c=IN IP4 127.0.1.1
+t=0 0
+m=audio 6000 RTP/AVP 101 99
+a=rtpmap:99 AMR/8000
+a=fmtp:99 octet-align=1;mode-set=1;max-red=655;mode-change-neighbour=3
+a=rtpmap:101 telephone-event/8000
+a=fmtp:10-15
+
+----------------------------------------------- 2019-11-04 10:15:45.081917
+UDP message received [300] bytes :
+
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-8225-1-0;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=8225SIPpTag001
+To: service <sip:service@10.204.66.87:5080>
+Call-ID: 1-8225@127.0.1.1
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Content-Length: 0
+
+
+----------------------------------------------- 2019-11-04 10:15:45.082352
+UDP message received [606] bytes :
+
+SIP/2.0 415 Unsupported Media Type
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-8225-1-0;received=10.204.66.5
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=8225SIPpTag001
+To: service <sip:service@10.204.66.87:5080>;tag=Q1evetSQvDUKa
+Call-ID: 1-8225@127.0.1.1
+CSeq: 1 INVITE
+User-Agent: sofia-sip/1.12.10devel
+Accept: application/sdp
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Content-Length: 0
+X-DolbyVoice-MediaServer-Version: Dolby Voice Conference Server - Conference Server 2.14.0.5146593 - Production
+
+
+----------------------------------------------- 2019-11-04 10:15:45.082432
+UDP message sent (364 bytes):
+
+ACK sip:service@10.204.66.87:5080 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-8225-1-3
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=8225SIPpTag001
+To: service <sip:service@10.204.66.87:5080>;tag=Q1evetSQvDUKa
+Call-ID: 1-8225@127.0.1.1
+CSeq: 1 ACK
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Subject: Performance Test
+Content-Length:     0
+
+

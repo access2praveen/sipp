@@ -1,0 +1,185 @@
+sipp: The following events occured:
+2019-03-07	02:42:20.172005	1551886940.172005: Continuing call on unexpected message for Call-Id '1-3264@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKUyUXUX7F228pD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=00jv7r5g1cNmH
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_3264
+Call-ID: 1-3264@10.204.66.46
+CSeq: 1367702 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1551841190 1551841190 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 39878 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-03-07	02:42:21.172329	1551886941.172329: Continuing call on unexpected message for Call-Id '1-3264@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKUyUXUX7F228pD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=00jv7r5g1cNmH
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_3264
+Call-ID: 1-3264@10.204.66.46
+CSeq: 1367702 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1551841190 1551841190 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 39878 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-03-07	02:42:23.173110	1551886943.173110: Continuing call on unexpected message for Call-Id '1-3264@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKUyUXUX7F228pD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=00jv7r5g1cNmH
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_3264
+Call-ID: 1-3264@10.204.66.46
+CSeq: 1367702 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1551841190 1551841190 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 39878 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-03-07	02:42:27.173847	1551886947.173847: Continuing call on unexpected message for Call-Id '1-3264@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKUyUXUX7F228pD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=00jv7r5g1cNmH
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_3264
+Call-ID: 1-3264@10.204.66.46
+CSeq: 1367702 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1551841190 1551841190 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 39878 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-03-07	02:42:35.175437	1551886955.175437: Continuing call on unexpected message for Call-Id '1-3264@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKUyUXUX7F228pD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=00jv7r5g1cNmH
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_3264
+Call-ID: 1-3264@10.204.66.46
+CSeq: 1367702 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1551841190 1551841190 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 39878 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-03-07	02:42:51.178517	1551886971.178517: Continuing call on unexpected message for Call-Id '1-3264@10.204.66.46': while pausing (index 16), received 'INVITE sip:sipp@10.204.66.46:6020 SIP/2.0
+Via: SIP/2.0/UDP 10.204.66.84:5080;branch=z9hG4bKUyUXUX7F228pD
+Max-Forwards: 70
+From: service <sip:service@10.204.66.84:5080>;tag=00jv7r5g1cNmH
+To: sipp <sip:sipp@10.204.66.46:6020>;tag=sipp_1_3264
+Call-ID: 1-3264@10.204.66.46
+CSeq: 1367702 INVITE
+Contact: <sip:10.204.66.84:5080>
+User-Agent: sofia-sip/1.12.10devel
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, PRACK, MESSAGE, SUBSCRIBE, NOTIFY, REFER, UPDATE, REGISTER, INFO
+Supported: timer, 100rel
+Session-Expires: 3600;refresher=uac
+Min-SE: 90
+Content-Type: application/sdp
+Content-Disposition: session
+Content-Length: 271
+
+v=0
+o=- 1551841190 1551841190 IN IP4 10.204.66.84
+s=media server session
+c=IN IP4 10.204.66.84
+t=0 0
+m=audio 39878 RTP/AVP 100 101
+a=rtpmap:100 DVC-2/48000
+a=fmtp:100 mode=ss;source=server;version=1
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=ptime:20
+'.
+2019-03-07	02:42:52.178940	1551886972.178940: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:42:53.179579	1551886973.179579: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:42:55.180234	1551886975.180234: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:42:59.180671	1551886979.180671: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:43:03.181673	1551886983.181673: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:43:07.182567	1551886987.182567: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:43:11.184352	1551886991.184352: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:43:15.185426	1551886995.185426: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:43:19.186838	1551886999.186838: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.
+2019-03-07	02:43:23.188586	1551887003.188586: Continuing call on an unexpected BYE for call: 1-3264@10.204.66.46.

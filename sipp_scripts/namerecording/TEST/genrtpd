@@ -1,0 +1,24 @@
+rm -rf *.rtpdump
+comms_codec g711:law=U_LAW $1 g711a.rtpdump
+comms_codec g711:law=A_LAW $1 g711u.rtpdump
+comms_codec g722 $1 g722.rtpdump
+comms_codec amrnb $1 amrnb.rtpdump
+comms_codec amrwb $1 amrwb.rtpdump
+comms_codec g7221:fs=16000,mode=24KBPS $1 g7221_24kbps.rtpdump
+comms_codec g7221:fs=16000,mode=32KBPS $1 g7221_32kbps.rtpdump
+comms_codec g7221:fs=32000,mode=24KBPS $1 g7221c_24kbps.rtpdump
+comms_codec g7221:fs=32000,mode=32KBPS $1 g7221c_32kbps.rtpdump
+comms_codec g7221:fs=32000,mode=48KBPS $1 g7221c_48kbps.rtpdump
+comms_codec l16:fs=32000 $1 L16_32.rtpdump
+comms_codec l16:fs=16000 $1 L16_16.rtpdump
+comms_codec opus:channel=1 $1 opus16.rtpdump
+comms_codec opus:channel=1,fs=24000 $1 opus24k.rtpdump
+sox  $1 -c 2 stereowav.wav
+sleep 2
+comms_codec opus:channel=2  stereowav.wav opus16_stereo.rtpdump
+comms_codec opus:channel=2,fs=24000 stereowav.wav opus24_stereo.rtpdump
+
+
+
+
+
