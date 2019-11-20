@@ -1,0 +1,159 @@
+rm -rf *.rtpdump
+rm -f  */*.rtpdump
+if [ $# -lt 2 ]
+then
+        echo "Usage : $0 wavfile codec_type (Ex g7xx,amr,amrwb,g7221,l16,opus)"
+        exit
+fi
+
+case "$2" in
+
+g7xx )
+echo -e "\n ---------Generating G7xx rtpdumps-------\n "
+comms_codec g711:law=U_LAW $1 G7xx/g711a.rtpdump
+comms_codec g711:law=A_LAW $1 G7xx/g711u.rtpdump
+comms_codec g722 $1 G7xx/g722.rtpdump
+;;
+amr ) 
+if [ $3 == OA ]
+then
+echo -e "\n ---------Generating AMRNB OCTET-ALIGNED rtpdumps-------\n "
+comms_codec amrnb:format=OCTET_ALIGNED $1 AMR/amr_oa.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_4_75k $1 AMR/amr_oa_mode0.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_5_15k $1 AMR/amr_oa_mode1.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_5_9k $1 AMR/amr_oa_mode2.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_6_7k $1 AMR/amr_oa_mode3.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_7_4k $1 AMR/amr_oa_mode4.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_7_95k $1 AMR/amr_oa_mode5.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_10_2k $1 AMR/amr_oa_mode6.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_12_2k $1 AMR/amr_oa_mode7.rtpdump
+else
+echo -e "\n ---------Generating AMRNB BWE rtpdumps-------\n "
+comms_codec amrnb $1 amr.rtpdump
+comms_codec amrnb:mode=MODE_4_75k $1 AMR/amr_mode0.rtpdump
+comms_codec amrnb:mode=MODE_5_15k $1 AMR/amr_mode1.rtpdump
+comms_codec amrnb:mode=MODE_5_9k $1 AMR/amr_mode2.rtpdump
+comms_codec amrnb:mode=MODE_6_7k $1 AMR/amr_mode3.rtpdump
+comms_codec amrnb:mode=MODE_7_4k $1 AMR/amr_mode4.rtpdump
+comms_codec amrnb:mode=MODE_7_95k $1 AMR/amr_mode5.rtpdump
+comms_codec amrnb:mode=MODE_10_2k $1 AMR/amr_mode6.rtpdump
+comms_codec amrnb:mode=MODE_12_2k $1 AMR/amr_mode7.rtpdump
+fi
+;;
+
+amrwb )
+
+echo -e "\n ---------Generating AMRWB rtpdumps-------\n "
+
+if [ $3 == OA ]
+then
+echo -e "\n ---------Generating AMRNB OCTET-ALIGNED rtpdumps-------\n "
+comms_codec amrwb:format='OCTET_ALIGNED' $1 AMRWB/amrwb_oa.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=0 $1 AMRWB/amrwb_oa_mode0.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=1 $1 AMRWB/amrwb_oa_mode1.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=2 $1 AMRWB/amrwb_oa_mode2.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=3 $1 AMRWB/amrwb_oa_mode3.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=4 $1 AMRWB/amrwb_oa_mode4.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=5 $1 AMRWB/amrwb_oa_mode5.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=6 $1 AMRWB/amrwb_oa_mode6.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=7 $1 AMRWB/amrwb_oa_mode7.rtpdump
+comms_codec amrwb:format=OCTET_ALIGNED,mode=8 $1 AMRWB/amrwb_oa_mode8.rtpdump
+else
+echo -e "\n ---------Generating AMRWB rtpdumps-------\n "
+comms_codec amrwb $1 AMRWB/amrwb.rtpdump
+comms_codec amrwb:format='OCTET_ALIGNED' $1 AMRWB/amrwb_oa.rtpdump
+comms_codec amrwb:mode=0 $1 AMRWB/amrwb_mode0.rtpdump
+comms_codec amrwb:mode=1 $1 AMRWB/amrwb_mode1.rtpdump
+comms_codec amrwb:mode=2 $1 AMRWB/amrwb_mode2.rtpdump
+comms_codec amrwb:mode=3 $1 AMRWB/amrwb_mode3.rtpdump
+comms_codec amrwb:mode=4 $1 AMRWB/amrwb_mode4.rtpdump
+comms_codec amrwb:mode=5 $1 AMRWB/amrwb_mode5.rtpdump
+comms_codec amrwb:mode=6 $1 AMRWB/amrwb_mode6.rtpdump
+comms_codec amrwb:mode=7 $1 AMRWB/amrwb_mode7.rtpdump
+comms_codec amrwb:mode=8 $1 AMRWB/amrwb_mode8.rtpdump
+fi
+;;
+
+g7221 ) 
+
+echo -e "\n ---------Generating G7221 rtpdumps-------\n "
+comms_codec g7221:fs=16000,mode=24KBPS $1 G7xx/g7221_24kbps.rtpdump
+comms_codec g7221:fs=16000,mode=32KBPS $1 G7xx/g7221_32kbps.rtpdump
+comms_codec g7221:fs=32000,mode=24KBPS $1 G7xx/g7221c_24kbps.rtpdump
+comms_codec g7221:fs=32000,mode=32KBPS $1 G7xx/g7221c_32kbps.rtpdump
+comms_codec g7221:fs=32000,mode=48KBPS $1 G7xx/g7221c_48kbps.rtpdump
+;;
+
+l16 ) 
+
+echo -e "\n ---------Generating L16  rtpdumps-------\n "
+comms_codec l16:channel=1,fs=32000 $1 L16/L16_32.rtpdump
+comms_codec l16:channel=1,fs=16000 $1 L16/L16_16.rtpdump
+;;
+
+opus ) 
+echo -e "\n ---------Generating OPUS rtpdumps-------\n "
+comms_codec opus:channel=1 $1 OPUS/opus16.rtpdump
+comms_codec opus:channel=1,fs=24000 $1 OPUS/opus24.rtpdump
+sox  $1 -c 2 OPUS/stereo.wav
+sleep 10
+comms_codec opus:channel=2  OPUS/stereo.wav OPUS/opus16_stereo.rtpdump
+comms_codec opus:channel=2,fs=24000 OPUS/stereo.wav OPUS/opus24_stereo.rtpdump
+;;
+
+dvc ) 
+echo -e "\n ---------Generating DVC rtpdumps-------\n "
+comms_codec dvc:protocol_id=7 --dvc_stream tcs:format=MONO $1 DVC/dvc_mono.rtpdump
+mono_to_spatial --format lrs $1 DVC/DVC_LRS.wav 20
+sleep 2
+comms_codec dvc:protocol_id=7,uplink=True --dvc_stream tcs:format=LRS,bitstream=E1_E2E3K DVC/DVC_LRS.wav DVC/dvc_spatial.rtpdump
+;;
+
+* ) 
+
+echo -e "\n ---------Generating G7xx rtpdumps-------\n "
+comms_codec g711:law=U_LAW $1 G7xx/g711a.rtpdump
+comms_codec g711:law=A_LAW $1 G7xx/g711u.rtpdump
+comms_codec g722 $1 G7xx/g722.rtpdump
+echo -e "\n ---------Generating DVC rtpdumps-------\n "
+comms_codec dvc:protocol_id=7 --dvc_stream tcs:format=MONO $1 DVC/dvc_mono.rtpdump
+mono_to_spatial --format lrs $1 DVC/DVC_LRS.wav 20
+sleep 2
+comms_codec dvc:protocol_id=7,uplink=True --dvc_stream tcs:format=LRS,bitstream=E1_E2E3K DVC/DVC_LRS.wav DVC/dvc_spatial.rtpdump
+echo -e "\n ---------Generating OPUS rtpdumps-------\n "
+comms_codec opus:channel=1 $1 OPUS/opus16.rtpdump
+comms_codec opus:channel=1,fs=24000 $1 OPUS/opus24.rtpdump
+sox  $1 -c 2 OPUS/stereo.wav
+sleep 10
+comms_codec opus:channel=2  OPUS/stereo.wav OPUS/opus16_stereo.rtpdump
+comms_codec opus:channel=2,fs=24000 OPUS/stereo.wav OPUS/opus24_stereo.rtpdump
+echo -e "\n ---------Generating L16  rtpdumps-------\n "
+comms_codec l16:fs=32000,channel=1 $1 L16/L16_32.rtpdump
+comms_codec l16:fs=16000,channel=1 $1 L16/L16_16.rtpdump
+echo -e "\n ---------Generating G7221 rtpdumps-------\n "
+comms_codec g7221:fs=16000,mode=24KBPS $1 G7xx/g7221_24kbps.rtpdump
+comms_codec g7221:fs=16000,mode=32KBPS $1 G7xx/g7221_32kbps.rtpdump
+comms_codec g7221:fs=32000,mode=24KBPS $1 G7xx/g7221c_24kbps.rtpdump
+comms_codec g7221:fs=32000,mode=32KBPS $1 G7xx/g7221c_32kbps.rtpdump
+comms_codec g7221:fs=32000,mode=48KBPS $1 G7xx/g7221c_48kbps.rtpdump
+echo -e "\n ---------Generating AMRWB rtpdumps-------\n "
+comms_codec amrwb $1 AMRWB/amrwb.rtpdump
+comms_codec amrwb:format='OCTET_ALIGNED' $1 AMRWB/amrwb_oa.rtpdump
+echo -e "\n ---------Generating AMRNB OCTET-ALIGNED rtpdumps-------\n "
+comms_codec amrnb:format=OCTET_ALIGNED $1 AMR/amr_oa.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_4_75k $1 AMR/amr_oa_mode0.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_5_15k $1 AMR/amr_oa_mode1.rtpdump
+comms_codec amrnb:format=OCTET_ALIGNED,mode=MODE_5_9k $1 AMR/amr_oa_mode2.rtpdump
+comms_codec amrnb:mode=format=OCTET_ALIGNED,mode=MODE_6_7k $1 AMR/amr_oa_mode3.rtpdump
+comms_codec amrnb:mode=format=OCTET_ALIGNED,mode=MODE_7_4k $1 AMR/amr_oa_mode4.rtpdump
+comms_codec amrnb:mode=format=OCTET_ALIGNED,mode=MODE_7_95k $1 AMR/amr_oa_mode5.rtpdump
+comms_codec amrnb:mode=format=OCTET_ALIGNED,mode=MODE_10_2k $1 AMR/amr_oa_mode6.rtpdump
+comms_codec amrnb:mode=format=OCTET_ALIGNED,mode=MODE_12_2k $1 AMR/amr_oa_mode7.rtpdump
+
+
+;;
+esac
+
+
+
+
